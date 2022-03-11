@@ -6,7 +6,7 @@
 @media screen and (min-width:1601px) {
     img {
       position: absolute;
-      clip: rect(0px,550px,300px,0px);
+      clip: rect(0px,600px,350px,0px);
     }
 }
 @media screen and (min-width:1400px) and (max-width:1600px) {
@@ -47,6 +47,6 @@
 @media screen and (max-width:600px) {
     img {
       position: absolute;
-      clip: rect(0px,550px,300px,0px);
+      clip: rect(0px,600px,350px,0px);
     }
 }
