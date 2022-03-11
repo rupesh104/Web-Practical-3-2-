@@ -1,0 +1,52 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+ 
+@media screen and (min-width:1601px) {
+    img {
+      position: absolute;
+      clip: rect(0px,312px,312px,0px);
+    }
+}
+@media screen and (min-width:1400px) and (max-width:1600px) {
+    img {
+      overflow: hidden;
+      height: 312px;
+      width: 312px;
+      margin: 0px 0px 180px 180px;
+    }
+}
+
+@media screen and (min-width:1200px) and (max-width:1400px) {
+    img {
+      position:sticky
+      clip: rect(312px,312px,0px,0px);
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width:1200px) {
+    img {
+      position: absolute;
+      clip: rect(312px,0px,312px,0px);
+    }
+}
+@media screen and (min-width:800px) and (max-width:1000px) {
+    img {
+      position: absolute;
+      clip: rect(312px,0px,312px,0px);
+    }
+}
+@media screen and (min-width:600px) and (max-width:800px) {
+    img {
+      position: absolute;
+      clip: rect(312px,0px,312px,0px);
+    }
+}
+
+@media screen and (max-width:600px) {
+    img {
+      position: absolute;
+      clip: rect(0px,312px,312px,0px);
+    }
+}
